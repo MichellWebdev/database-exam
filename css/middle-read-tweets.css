@@ -1,0 +1,71 @@
+.tweet {
+  display: grid;
+  grid-template-columns: 2fr 24fr;
+  grid-template-rows: auto;
+  gap: 0.5rem;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 1rem;
+}
+
+.user-profile-image {
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.user-profile-image img {
+  border-radius: 50%;
+  width: 90%;
+}
+
+.user-info {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  gap: 1rem;
+}
+
+.user-info a {
+  font-weight: 700;
+}
+
+.user-info__profile-name {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.tweet-image {
+  padding-top: 1rem;
+  width: 60%;
+}
+
+.tweet-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 3fr 3fr;
+  gap: 0.8rem;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.tweet-likes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tweet-options svg {
+  fill: rgba(0, 0, 0, 0.6);
+  width: 30%;
+}
+.tweet-likes svg {
+  width: 60%;
+}
+
+.tweet-total-likes {
+  align-self: center;
+}
+
+.tweet-options button {
+  width: 40%;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 30px;
+  justify-self: end;
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "iListId": "768455",
+    "iListUserFk": "126534",
+    "sListName": "Supernatural",
+    "iListTotalMembers": 0,
+    "iListTotalFollowers": 0,
+    "sUserMemberIds": [
+      { "id": 123434, "name": "a", "image": "../../" },
+      { "id": 124214, "name": "b", "image": "../../" }
+    ]
+  },
+  {
+    "iListId": "124476",
+    "iListUserFk": "783423",
+    "sListName": "Politics",
+    "iListTotalMembers": 0,
+    "iListTotalFollowers": 0,
+    "sUserMemberIds": [
+      { "id": 123434, "name": "a", "image": "../../" },
+      { "id": 124214, "name": "b", "image": "../../" }
+    ]
+  }
+]

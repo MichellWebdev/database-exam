@@ -1,0 +1,54 @@
+#follow-suggestions {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 370px;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #eef1f3;
+  border-radius: 1rem;
+}
+
+.follow-suggestions__header {
+  display: grid;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.follow-suggestions__header h2 {
+  padding-left: 0.5rem;
+  align-self: center;
+}
+
+.follow {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+  padding: 0.3rem 0;
+}
+
+.follow__profile-image img {
+  width: 80%;
+  padding-top: 0.5rem;
+}
+
+.follow-suggestion__user-name {
+  align-self: center;
+}
+
+.follow button {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 30px;
+  justify-self: center;
+  align-self: center;
+}
+
+.follow:last-child {
+  grid-template-columns: 1fr;
+  border: 0;
+  color: rgba(29, 161, 242, 1);
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+  padding-top: 0.7rem;
+  align-self: center;
+}

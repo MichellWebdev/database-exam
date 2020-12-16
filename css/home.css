@@ -1,0 +1,106 @@
+#loginPage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Login page right coloumn */
+
+#loginSection1 {
+  background-color: rgb(113, 201, 248);
+  height: 100vh;
+  display: grid;
+  align-content: center;
+}
+
+#loginTwitterLogo {
+  fill: rgba(29, 161, 242, 1);
+  width: 50%;
+  position: absolute;
+}
+
+#loginIcons {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0.7rem;
+  align-items: center;
+  justify-self: center;
+  width: 50%;
+}
+
+#loginIcons > .icon {
+  fill: white;
+  width: 50%;
+  display: grid;
+  justify-self: end;
+}
+
+#loginIcons > .loginS1Description {
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  display: grid;
+}
+
+/* Login page right coloumn */
+#loginSection2 {
+  display: grid;
+}
+
+#loginForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.7rem;
+  height: 70px;
+  padding: 1rem;
+  width: 70%;
+  justify-self: end;
+}
+
+#loginForm > .loginInput {
+  border: 0;
+  border-bottom: 0.7px solid black;
+  padding: 0.3rem;
+  background-color: rgba(223, 232, 238, 0.418);
+}
+
+#loginForm > button {
+  border-radius: 4rem;
+  border: 0.5px solid rgb(29, 161, 242);
+  width: 50%;
+  background-color: white;
+  color: rgba(29, 161, 242, 1);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+#loginForm > button:hover {
+  background-color: rgba(29, 160, 242, 0.178);
+  transition-duration: 0.2s;
+}
+
+#signupLink {
+  display: grid;
+  width: 70%;
+  justify-self: end;
+  height: 210px;
+  padding-left: 1.5rem;
+}
+
+#signupLink > h1 {
+  width: 60%;
+  line-height: 2.5rem;
+  font-size: 1.7rem;
+  padding-bottom: 2rem;
+}
+
+#signupLink button {
+  border-radius: 4rem;
+  border: none;
+  width: 60%;
+  color: white;
+  background-color: rgba(29, 161, 242, 1);
+  font-size: 1.2rem;
+  font-weight: 700;
+}

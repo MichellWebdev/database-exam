@@ -1,0 +1,17 @@
+[
+  {​​​​​​​​
+    "iUserFk": "667788",
+    "iTweetFk": "195732",
+    "iUserWhoLikedFk": "667788",
+    "sUserWhoLikedImagePath": "../../..",
+    "sUserWhoLikedProfileName": "JaredPadalecki"
+  }​​​​​​​​,
+  {​​​​​​​​
+    "iUserFk": "998800",
+    "iTweetFk": "789465",
+    "iUserWhoLikedFk": "998800",
+    "sUserWhoLikedImagePath": "../../..",
+    "sUserWhoLikedProfileName": "KimRhodes"
+  }​​​​​​​​
+]
+

@@ -1,0 +1,14 @@
+[
+  {​​​​​​​​
+    "iUserFk": "667788",
+    "iTweetFk": "195732",
+    "iUserTaggedFk": "125435",
+    "sUserTaggedProfileName": "JaredPadalecki"
+  }​​​​​​​​,
+  {​​​​​​​​
+    "iUserFk": "125435",
+    "iTweetFk": "195732",
+    "iUserTaggedFk": "667788",
+    "sUserTaggedProfileName": "KimRhodes"
+  }​​​​​​​​
+]

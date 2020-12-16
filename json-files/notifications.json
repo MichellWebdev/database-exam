@@ -1,0 +1,11 @@
+[
+  {
+    "iNotificationId": "126592",
+    "sNotificationMessage": "you have received a notification",
+    "iUserFk": "125424",
+    "sUserFkName": "Aaa",
+    "sUserFkImage": "../../",
+    "iNotificationReceiverFk": "452343",
+    "iTweetId": "125424"
+  }
+]

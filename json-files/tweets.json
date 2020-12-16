@@ -1,0 +1,26 @@
+[
+  {
+    "iTweetId": "1234",
+    "iUserId": "1",
+    "sUserName": "Michell",
+    "sUserProfileName": "MichellDranig",
+    "sUserImagePath": "../profile-m.jpg",
+    "sTweetMessage": "Hi from michell",
+    "sTweetImagePath": "../../.png",
+    "dTweetCreated": "2020-10-10 10:00",
+    "iTweetTotalLikes": 100,
+    "sHashtagName": ["Woho", "hello"]
+  },
+  {
+    "iTweetId": "1123",
+    "iUserId": "2",
+    "sUserName": "Andreas",
+    "sUserProfileName": "AndreasOliver",
+    "sUserImagePath": "../profile-a.jpg",
+    "sTweetMessage": "Hi from Andreas",
+    "sTweetImagePath": "../../.png",
+    "dTweetCreated": "2020-10-10 12:00",
+    "iTweetTotalLikes": 70,
+    "sUserTaggedName": ["JaredPadalecki", "KimRhodes"]
+  }
+]

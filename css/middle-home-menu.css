@@ -1,0 +1,23 @@
+#home-menu {
+  display: grid;
+  grid-template-columns: 25fr 1fr;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 1rem;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  height: 60px;
+}
+
+#home-menu a {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: black;
+}
+
+#home-menu svg {
+  fill: rgba(29, 161, 242, 1);
+}

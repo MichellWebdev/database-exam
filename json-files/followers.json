@@ -1,0 +1,14 @@
+[
+  {
+    "followerId": "1",
+    "followedId": "2",
+    "followerUserName": "Michell",
+    "followedUserName": "Andreas"
+  },
+  {
+    "followerId": "2",
+    "followedId": "1",
+    "followerUserName": "Andreas",
+    "followedUserName": "Michell"
+  }
+]

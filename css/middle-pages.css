@@ -1,0 +1,13 @@
+#middle-section {
+  display: grid;
+  border-left: 0.5px solid rgba(0, 0, 0, 0.1);
+  border-right: 0.5px solid rgba(0, 0, 0, 0.1);
+  grid-column: 2/3;
+}
+.subpage {
+  display: none;
+}
+.subpage:first-child {
+  display: grid;
+}
+/* this is not working other than hiding all the subpages  */

@@ -1,0 +1,24 @@
+[
+  {
+    "iUserId": "1",
+    "sUserName": "Michell",
+    "sUserProfileName": "MichellDranig",
+    "sImagePath": "../profile-m.jpg",
+    "dUserCreated": "2020-10-10 10:00",
+    "active": "0",
+    "total_followers": "0",
+    "sCountryName": "Denmark",
+    "sCityName": "Copenhagen"
+  },
+  {
+    "iUserId": "2",
+    "sUserName": "Andreas",
+    "sUserProfileName": "AndreasOliver",
+    "sImagePath": "../profile-a.jpg",
+    "dUserCreated": "2020-10-10 10:00",
+    "active": "0",
+    "total_followers": "0",
+    "sCountryName": "Spain",
+    "sCityName": "Barcelona"
+  }
+]

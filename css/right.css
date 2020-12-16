@@ -1,0 +1,18 @@
+#right {
+  display: grid;
+  grid-template-rows: 1fr 15fr 15fr;
+  position: fixed;
+  grid-column: 3/4;
+  z-index: 100;
+  width: 300px;
+  left: 70%;
+  padding: 1rem 0px;
+}
+
+#search input {
+  padding: 0.5rem;
+  width: 100%;
+  border: 0;
+  border-radius: 4rem;
+  background-color: #e6eaec;
+}
